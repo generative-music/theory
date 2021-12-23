@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "A collection of utilities loosely related to western music theory",
   "type": "module",
-  "main": "./src/index.js",
-  "exports": "./src/index.js",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "mocha src/**/*.spec.js",
     "build": "babel src --out-dir dist"
