@@ -1,0 +1,12 @@
+{
+  "extends": "@alexbainter/eslint-config",
+  "parserOptions": {
+    "sourceType":"module"
+  },
+  "overrides": [{
+    "files": "*.spec.js",
+    "env": {
+      "mocha": true,
+    },
+  }]
+}
