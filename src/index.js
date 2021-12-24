@@ -1,7 +1,6 @@
 import * as chords from './chords';
 import * as intervals from './interval';
 export { chords, intervals };
-export { default as chord } from './chord';
 export { default as getDistance } from './get-distance';
 export { default as getOctave } from './get-octave';
 export { default as getPitchClass } from './get-pitch-class';
