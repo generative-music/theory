@@ -10,7 +10,10 @@
   ],
   "scripts": {
     "test": "mocha src/**/*.spec.js",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "lint": "eslint src",
+    "preversion": "npm run lint",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
