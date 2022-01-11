@@ -137,7 +137,7 @@ const sampledC6 = sampleNote({
   note: 'C6', // the note to play
   sampledNotes: ['C4', 'G4', 'C5'], // a list of notes whose recordings we can play
 }); // returns { sampledNote: 'C5', playbackRate: 2 }
-// if a recording of a C5 is played at 2x speed, it will sound like a G#5
+// if a recording of a C5 is played at 2x speed, it will sound like a C6
 
 const pitchShiftedC4 = sampleNote({
   note: 'C4',
